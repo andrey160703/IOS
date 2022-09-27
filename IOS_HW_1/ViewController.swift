@@ -140,10 +140,6 @@ class ViewController: UIViewController {
             UIView.animate(
                 withDuration: 1,
                 animations: {
-                    el.transform = CGAffineTransform(
-                        scaleX: CGFloat.random(in: -2...2),
-                            y: CGFloat.random(in: -2...2)
-                    )
                     if (.random(in: 1...3) == 1) {
                         el.shake()
                     }
