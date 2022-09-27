@@ -135,9 +135,15 @@ class ViewController: UIViewController {
 //            print(el)
 //        }
         for el in views {
+            
+            
             UIView.animate(
                 withDuration: 1,
                 animations: {
+                    el.transform = CGAffineTransform(
+                        scaleX: CGFloat.random(in: -2...2),
+                            y: CGFloat.random(in: -2...2)
+                    )
                     if (.random(in: 1...3) == 1) {
                         el.shake()
                     }
