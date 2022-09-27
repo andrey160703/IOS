@@ -13,9 +13,6 @@
 		A3E99A6A28D9B53000E58851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E99A6828D9B53000E58851 /* Main.storyboard */; };
 		A3E99A6C28D9B53100E58851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E99A6B28D9B53100E58851 /* Assets.xcassets */; };
 		A3E99A6F28D9B53100E58851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E99A6D28D9B53100E58851 /* LaunchScreen.storyboard */; };
-		A3E99A7A28D9B53100E58851 /* IOS_HW_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E99A7928D9B53100E58851 /* IOS_HW_1Tests.swift */; };
-		A3E99A8428D9B53100E58851 /* IOS_HW_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E99A8328D9B53100E58851 /* IOS_HW_1UITests.swift */; };
-		A3E99A8628D9B53100E58851 /* IOS_HW_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E99A8528D9B53100E58851 /* IOS_HW_1UITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		A3E99A6E28D9B53100E58851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3E99A7028D9B53100E58851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3E99A7528D9B53100E58851 /* IOS_HW_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_HW_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3E99A7928D9B53100E58851 /* IOS_HW_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW_1Tests.swift; sourceTree = "<group>"; };
 		A3E99A7F28D9B53100E58851 /* IOS_HW_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_HW_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3E99A8328D9B53100E58851 /* IOS_HW_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW_1UITests.swift; sourceTree = "<group>"; };
-		A3E99A8528D9B53100E58851 /* IOS_HW_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				A3E99A6128D9B53000E58851 /* IOS_HW_1 */,
-				A3E99A7828D9B53100E58851 /* IOS_HW_1Tests */,
-				A3E99A8228D9B53100E58851 /* IOS_HW_1UITests */,
 				A3E99A6028D9B53000E58851 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				A3E99A7028D9B53100E58851 /* Info.plist */,
 			);
 			path = IOS_HW_1;
-			sourceTree = "<group>";
-		};
-		A3E99A7828D9B53100E58851 /* IOS_HW_1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A3E99A7928D9B53100E58851 /* IOS_HW_1Tests.swift */,
-			);
-			path = IOS_HW_1Tests;
-			sourceTree = "<group>";
-		};
-		A3E99A8228D9B53100E58851 /* IOS_HW_1UITests */ = {
-			isa = PBXGroup;
-			children = (
-				A3E99A8328D9B53100E58851 /* IOS_HW_1UITests.swift */,
-				A3E99A8528D9B53100E58851 /* IOS_HW_1UITestsLaunchTests.swift */,
-			);
-			path = IOS_HW_1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3E99A7A28D9B53100E58851 /* IOS_HW_1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3E99A8628D9B53100E58851 /* IOS_HW_1UITestsLaunchTests.swift in Sources */,
-				A3E99A8428D9B53100E58851 /* IOS_HW_1UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
